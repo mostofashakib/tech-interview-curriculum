@@ -2,12 +2,12 @@
 
 Classical and traditional ML — everything that isn't LLM post-training. This is
 the route for ML engineer, data scientist, and applied scientist loops, and it's
-the foundation the [post-training/](../post-training/) route assumes.
+the foundation the [llm-post-training/](../llm-post-training/) route assumes.
 
 > **Which route do I need?**
 > Classical ML / MLE / DS roles → this route.
 > AI lab, research engineer, LLM roles → this route for fundamentals, then
-> [post-training/](../post-training/).
+> [llm-post-training/](../llm-post-training/).
 > Almost every ML loop also has a coding round → [../dsa/](../dsa/).
 
 ## Contents

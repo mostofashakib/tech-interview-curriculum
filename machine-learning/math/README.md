@@ -24,7 +24,7 @@ The prerequisites. Refresh whatever is rusty — this is the most common source 
 - [ ] Law of large numbers; central limit theorem
 - [ ] Maximum likelihood estimation; MAP and its link to regularization
 - [ ] Entropy, cross-entropy, **KL divergence** — the bridge to
-      [../../post-training/](../../post-training/)
+      [../../llm-post-training/](../../llm-post-training/)
 
 ## Statistics
 

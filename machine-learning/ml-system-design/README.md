@@ -74,7 +74,7 @@ Work each one end to end, timed at 45 minutes:
 | Churn prediction | Label definition is the whole problem |
 | Dynamic pricing | Feedback loop into the training data |
 | Autocomplete / query suggestion | Latency budget in single-digit ms |
-| LLM-powered feature | Eval design, cost per call, fallbacks — see [../../post-training/evals/](../../post-training/evals/) |
+| LLM-powered feature | Eval design, cost per call, fallbacks — see [../../llm-post-training/evals/](../../llm-post-training/evals/) |
 
 ## The three things that separate a senior answer
 

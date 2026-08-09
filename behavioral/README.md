@@ -36,4 +36,4 @@ _Keep your STAR write-ups here — one file per story._
 ## Related
 
 For the AI-lab variant of these questions, see
-[../post-training/interview-questions/](../post-training/interview-questions/).
+[../llm-post-training/interview-questions/](../llm-post-training/interview-questions/).

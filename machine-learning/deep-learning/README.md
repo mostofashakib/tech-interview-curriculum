@@ -1,7 +1,7 @@
 # Deep Learning
 
 Neural network fundamentals. Depth needed depends on the role — for AI lab roles
-this is the on-ramp to [../../post-training/](../../post-training/).
+this is the on-ramp to [../../llm-post-training/](../../llm-post-training/).
 
 ## Checklist
 
@@ -71,7 +71,7 @@ the order.
 ## Next
 
 For transformer internals and everything downstream of pretraining, continue to
-[../../post-training/fundamentals/](../../post-training/fundamentals/).
+[../../llm-post-training/fundamentals/](../../llm-post-training/fundamentals/).
 
 ## Notes
 
