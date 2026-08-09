@@ -1,6 +1,6 @@
 # Tech Interview Curriculum
 
-**Coding interview, system design, machine learning, and LLM post-training prep — in one repo, organized by the job you're actually interviewing for.**
+**Interview prep for LLM post-training, machine learning, system design, and coding — in one repo, organized by the job you're actually interviewing for.**
 
 [![Stars](https://img.shields.io/github/stars/mostofashakib/tech-interview-curriculum?style=flat&color=blue)](https://github.com/mostofashakib/tech-interview-curriculum/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mostofashakib/tech-interview-curriculum?style=flat)](https://github.com/mostofashakib/tech-interview-curriculum/commits)
