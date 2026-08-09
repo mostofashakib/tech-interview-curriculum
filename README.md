@@ -6,7 +6,7 @@
 [![Last commit](https://img.shields.io/github/last-commit/mostofashakib/tech-interview-curriculum?style=flat)](https://github.com/mostofashakib/tech-interview-curriculum/commits)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat)](LICENSE)
 
-Most interview repos are one giant undifferentiated list. This one is six
+Most interview repos are one giant undifferentiated list. This one is four
 routes: **pick your career path below, follow the route it gives you, and ignore
 everything else.**
 
@@ -24,10 +24,6 @@ everything else.**
 <td>1. <a href="dsa/">DSA</a> &nbsp;&rarr;&nbsp; 2. <a href="software-engineering/">Software Engineering</a> &nbsp;&rarr;&nbsp; 3. <a href="behavioral/">Behavioral</a></td>
 </tr>
 <tr>
-<td><b>Senior / Staff Engineer</b></td>
-<td>1. <a href="software-engineering/system-design/">System Design</a> &nbsp;&rarr;&nbsp; 2. <a href="behavioral/">Behavioral</a> &nbsp;&rarr;&nbsp; 3. <a href="dsa/">DSA</a> (refresh)</td>
-</tr>
-<tr>
 <td><b>ML Engineer / Data Scientist</b></td>
 <td>1. <a href="machine-learning/">Machine Learning</a> &nbsp;&rarr;&nbsp; 2. <a href="machine-learning/ml-system-design/">ML System Design</a> &nbsp;&rarr;&nbsp; 3. <a href="dsa/">DSA</a> &nbsp;&rarr;&nbsp; 4. <a href="behavioral/">Behavioral</a></td>
 </tr>
@@ -39,14 +35,16 @@ everything else.**
 <td><b>ML Infra / Inference</b></td>
 <td>1. <a href="llm-post-training/inference/">Inference</a> &nbsp;&rarr;&nbsp; 2. <a href="software-engineering/system-design/">System Design</a> &nbsp;&rarr;&nbsp; 3. <a href="llm-post-training/">Post-Training</a> &nbsp;&rarr;&nbsp; 4. <a href="dsa/">DSA</a></td>
 </tr>
-<tr>
-<td><b>New grad / intern</b></td>
-<td>1. <a href="dsa/">DSA</a> (most of your time) &nbsp;&rarr;&nbsp; 2. <a href="software-engineering/cs-fundamentals/">CS Fundamentals</a> &nbsp;&rarr;&nbsp; 3. <a href="behavioral/">Behavioral</a></td>
-</tr>
 </table>
 
 Every route has its own README with a suggested order and a question bank. Open
 the first link in your row and start there.
+
+**Seniority changes the weighting, not the material.** An intern and a staff
+engineer read the same folders in different proportions — see
+[what each level is tested on](software-engineering/README.md#what-each-level-is-tested-on)
+for how the rounds shift from intern through staff, and where to spend your time
+at each.
 
 Before any of it, there's [resume-tips.pdf](resume-tips.pdf) — you have to get
 the interview before you can prepare for it.
