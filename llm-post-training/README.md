@@ -72,3 +72,15 @@ Neural network fundamentals, backprop, and optimizers come from
 [../machine-learning/deep-learning/](../machine-learning/deep-learning/). KL
 divergence, cross-entropy, and MLE come from
 [../machine-learning/math/](../machine-learning/math/).
+
+## Video courses
+
+Course recommendations sit in the folder they belong to: CS336 and CME295 in
+[fundamentals/](fundamentals/), CS329H and CS224R in
+[preference-optimization/](preference-optimization/). One spans the whole route
+and has no narrower home:
+
+- [Stanford CS329A — Self-Improving AI Agents](https://www.youtube.com/playlist?list=PLangBM27OtEA)
+  — self-training, agentic RL, and evaluation loops treated as one subject.
+  Closest thing to a course on where post-training is currently heading, which
+  makes it useful for the "what would you do next" end of an interview.

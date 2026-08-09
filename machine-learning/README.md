@@ -52,6 +52,12 @@ For every algorithm, be able to answer five things:
 Reciting an algorithm's definition is table stakes. Naming the assumption it
 makes and the situation that breaks it is what separates candidates.
 
+## Video courses
+
+- [Stanford CS229 — Machine Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rNyWOpJg_Yh4NSqI4Z4vOYy)
+  (Spring 2022) — the canonical course for this whole route. Heavier on
+  derivations than most, which is exactly what the framing above rewards.
+
 ## Notes
 
 _Fill each folder with your own notes as you study._

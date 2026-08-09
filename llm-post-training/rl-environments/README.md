@@ -122,6 +122,13 @@ conditions you should train under.
 - How do you build a curriculum without hand-labeling difficulty?
 - How do you know your model learned the task rather than the environment?
 
+## Video courses
+
+- [Build a Real-World Reinforcement Learning Environment](https://www.youtube.com/playlist?list=PL58zEckBH8fDtNs79K0tqxzPT6Zr3iqDZ)
+  — a build-along, not a lecture series, and useful for exactly that reason. The
+  design questions above get much easier to answer once you have had to choose a
+  reward and a termination condition yourself and watched a model exploit both.
+
 ## Notes
 
 _Add your own notes and environment designs here._

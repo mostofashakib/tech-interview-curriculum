@@ -53,6 +53,13 @@ is a standard whiteboard ask, and it sets up the DPO derivation next door.
 - When would you skip the reward model entirely?
 - Design a reward signal for a coding assistant.
 
+## Video courses
+
+- [Stanford CS329H — Machine Learning from Human Preferences](https://www.youtube.com/playlist?list=PLoROMvodv4rNm525zyAObP4al43WAifZz)
+  (Autumn 2024) — covers preference elicitation and reward model failure modes
+  directly. Full note in
+  [../preference-optimization/](../preference-optimization/).
+
 ## Notes
 
 _Add your own notes here._

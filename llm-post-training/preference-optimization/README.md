@@ -76,6 +76,17 @@ post-training interviews. Practice it on paper until it's automatic.
 - Design an RL setup for a model that must be good at math *and* stay a pleasant
   conversationalist.
 
+## Video courses
+
+- [Stanford CS329H — Machine Learning from Human Preferences](https://www.youtube.com/playlist?list=PLoROMvodv4rNm525zyAObP4al43WAifZz)
+  (Autumn 2024) — the course for this folder. Preference data, reward models,
+  RLHF and its alternatives, taught as an open research area rather than a
+  recipe, which is where the honest answers about failure modes come from.
+- [Stanford CS224R — Deep Reinforcement Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rPwxE0ONYRa_itZFdaKCylL)
+  — the RL that PPO, TRPO, and GRPO are built on. Worth the time if policy
+  gradients still feel like a formula you memorized rather than something you
+  can derive on a whiteboard.
+
 ## Notes
 
 _Add your own notes here._

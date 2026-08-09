@@ -60,6 +60,13 @@ If time is short, these carry the most interview weight:
 5. **CLT and confidence intervals** — needed the moment you claim one model beat
    another.
 
+## Video courses
+
+- [MIT 18.06 — Linear Algebra](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8)
+  (Strang) — the standard course, and still the clearest. If time is short, the
+  lectures on eigenvalues, eigenvectors, and SVD are the ones PCA and LoRA rest
+  on.
+
 ## Notes
 
 _Add your own notes and worked problems here._

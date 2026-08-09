@@ -68,6 +68,17 @@ the order.
 - Adam vs SGD — when is plain SGD with momentum actually better?
 - Your model overfits with 1000 examples. Five options, ordered by what you'd try first.
 
+## Video courses
+
+- [Stanford CS230 — Deep Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rNRRGdS0rBbXOUGA0wjdh1X)
+  (Autumn 2025) — architectures and training practice, including the debugging
+  discipline above.
+- [Stanford CS224N — NLP with Deep Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rOaMFbaqxPDoLWjDaRAdP9D)
+  (Spring 2024, Manning) — the path from word vectors through attention to
+  transformers. Watch this before post-training: it explains *why* attention
+  replaced recurrence instead of just asserting it, which is the version of the
+  answer interviewers are listening for.
+
 ## Next
 
 For transformer internals and everything downstream of pretraining, continue to

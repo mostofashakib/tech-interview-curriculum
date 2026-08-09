@@ -53,6 +53,16 @@ Then explain what LoRA, ZeRO-3, and 8-bit optimizers each remove from that
 table. This calculation comes up constantly and doing it fluently is a strong
 signal.
 
+## Video courses
+
+- [Stanford CS336 — Language Modeling from Scratch](https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_)
+  (2025) — builds a language model end to end: data, tokenizer, architecture,
+  training, inference. The best available answer to what actually happens at
+  each of the five stages, and it makes the memory math above concrete.
+- [Stanford CME295 — Transformers and Large Language Models](https://www.youtube.com/playlist?list=PLoROMvodv4rOCXd21gf0CF4xr35yINeOy)
+  (Autumn 2025) — shorter and more targeted: transformer internals through
+  fine-tuning and serving. Good if CS336 is more time than you have.
+
 ## Notes
 
 _Add your own notes and worked derivations here._
