@@ -52,8 +52,8 @@ parameters grow without proportional compute per token. Distinguish *total* from
 - **Mixed precision**: forward/backward in FP16 or BF16, master weights and
   gradient accumulation in FP32. BF16 is preferred — same exponent range as FP32,
   so no loss scaling needed.
-- **Distributed training**: the engineering constraint is thermal and cost
-  overrun, not just correctness.
+- **Distributed training**: the engineering constraints are thermal and cost
+  overrun as much as correctness.
 
 **Output of this stage**: a base model. A capable but wild autocompleter. It has
 the knowledge; it has no idea it's supposed to be an assistant.

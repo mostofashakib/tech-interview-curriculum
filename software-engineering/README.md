@@ -1,7 +1,6 @@
 # Software Engineering
 
-Everything that isn't DSA and isn't behavioral: system design, CS fundamentals,
-language-specific questions, and web.
+System design, CS fundamentals, language-specific questions, and web.
 
 ## What each level is tested on
 

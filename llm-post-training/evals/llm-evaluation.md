@@ -25,7 +25,7 @@ should begin by naming which of the five you're actually solving.
 | 1. Task definition | Turn a vague goal into a measurable objective | You measure something adjacent to what you care about |
 | 2. Define success | State the criteria explicitly: correctness, usefulness, latency | Disagreement about whether you passed |
 | 3. Choose method | Match methodology to task structure | Reference metrics on open-ended tasks |
-| 4. Dataset design | Build test sets that cover edge cases, not just the head | Great scores, bad product |
+| 4. Dataset design | Build test sets weighted toward edge cases | Great scores, bad product |
 | 5. Reliability | Validate that the metric is stable under perturbation | You chase noise |
 | 6. Failure analysis | Cluster and inspect errors | You know the score but not the fix |
 

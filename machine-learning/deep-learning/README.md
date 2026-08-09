@@ -76,8 +76,8 @@ the order.
 - [Stanford CS224N — NLP with Deep Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rOaMFbaqxPDoLWjDaRAdP9D)
   (Spring 2024, Manning) — the path from word vectors through attention to
   transformers. Watch this before post-training: it explains *why* attention
-  replaced recurrence instead of just asserting it, which is the version of the
-  answer interviewers are listening for.
+  replaced recurrence, which is the version of the answer interviewers are
+  listening for.
 
 ## Next
 

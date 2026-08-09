@@ -23,7 +23,7 @@ the same hardware. Fused operations and hand-written backward passes rather than
 an algorithmic change.
 
 **vLLM** — serving and batch inference, built on **PagedAttention**. You need it
-during post-training too, not just deployment: generating synthetic data and RL
+during post-training as much as at deployment: generating synthetic data and RL
 rollouts is an inference-heavy workload.
 
 > Recognize the pattern: post-training is a training loop wrapped around a very

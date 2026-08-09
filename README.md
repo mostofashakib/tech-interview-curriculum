@@ -122,7 +122,7 @@ llm-post-training/
 ├── inference/                  KV cache, quantization, speculative decoding
 └── interview-questions/        derivations, debugging, design
 
-[N] = contains written notes, not just checklists
+[N] = contains written notes
 ```
 
 ---

@@ -1,8 +1,8 @@
 # Machine Learning
 
-Classical and traditional ML — everything that isn't LLM post-training. This is
-the route for ML engineer, data scientist, and applied scientist loops, and it's
-the foundation the [llm-post-training/](../llm-post-training/) route assumes.
+Classical and traditional ML: the route for ML engineer, data scientist, and
+applied scientist loops, and the foundation the
+[llm-post-training/](../llm-post-training/) route assumes.
 
 > **Which route do I need?**
 > Classical ML / MLE / DS roles → this route.

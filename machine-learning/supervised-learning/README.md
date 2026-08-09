@@ -69,7 +69,7 @@ Where most classical ML interview questions live.
 - Why does random forest choose a random feature subset at each split?
 - Explain the kernel trick without writing an equation.
 - Your gradient boosting model beats your neural net on tabular data. Why isn't that surprising?
-- When is logistic regression the right final answer, not just the baseline?
+- When is logistic regression the right final answer rather than the baseline?
 - Derive the logistic regression gradient.
 
 ## Notes

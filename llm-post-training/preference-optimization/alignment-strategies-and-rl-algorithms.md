@@ -61,7 +61,7 @@ Uses **second-order** information (the Fisher Information Matrix) to take the
 largest policy step that provably stays within a KL "trust region."
 
 - Mathematically principled, genuinely stable.
-- Computationally expensive — you're working with curvature, not just gradients.
+- Computationally expensive — you're working with curvature on top of gradients.
 - **Rarely used today.** Know it as the thing PPO simplified, because that framing
   is exactly what the "why PPO?" question is looking for.
 

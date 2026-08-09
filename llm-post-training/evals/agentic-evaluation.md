@@ -87,7 +87,7 @@ are the perturbations you should train under.
 | **Tool design** | Clear naming, typed arguments |
 | **Instruction design** | Explicit decision policies, not vibes |
 | **Targeted training** | Train on the failure-mode clusters you found |
-| **Evaluation coverage** | Include messy scenarios, not just ideal ones |
+| **Evaluation coverage** | Include messy scenarios alongside ideal ones |
 | **Recovery scoring** | Explicitly measure behavior after failure |
 
 ## Related benchmarks

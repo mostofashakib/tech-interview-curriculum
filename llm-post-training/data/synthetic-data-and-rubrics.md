@@ -48,7 +48,7 @@ Two things to notice, both generalizable:
 
 - **Binary where binary is honest.** Format compliance and security have a right
   answer. Forcing them onto a 1–5 scale invents disagreement.
-- **Penalties, not just scores.** Conciseness is expressed as a deduction, which
+- **Penalties alongside scores.** Conciseness is expressed as a deduction, which
   encodes "this is a defect to remove" rather than "this is a virtue to maximize."
   That framing prevents the model from over-optimizing terseness.
 
