@@ -1,8 +1,17 @@
 # Tech Interview Curriculum
 
-A one-stop study repo for technical interviews, spanning software engineering,
-machine learning, and LLM post-training. **Pick your career path below, follow
-the route it gives you, and ignore everything else.**
+**Coding interview, system design, machine learning, and LLM post-training prep — in one repo, organized by the job you're actually interviewing for.**
+
+[![Stars](https://img.shields.io/github/stars/mostofashakib/tech-interview-curriculum?style=flat&color=blue)](https://github.com/mostofashakib/tech-interview-curriculum/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/mostofashakib/tech-interview-curriculum?style=flat)](https://github.com/mostofashakib/tech-interview-curriculum/commits)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat)](LICENSE)
+
+Most interview repos are one giant undifferentiated list. This one is six
+routes: **pick your career path below, follow the route it gives you, and ignore
+everything else.**
+
+> If this saves you time, **star the repo** — it's how other people
+> preparing for the same interviews find it.
 
 ---
 
@@ -24,11 +33,11 @@ the route it gives you, and ignore everything else.**
 </tr>
 <tr>
 <td><b>AI Lab / Research Engineer</b><br><sub>post-training, alignment, RL</sub></td>
-<td>1. <a href="machine-learning/deep-learning/">Deep Learning</a> &nbsp;&rarr;&nbsp; 2. <a href="post-training/">Post-Training</a> &nbsp;&rarr;&nbsp; 3. <a href="dsa/">DSA</a> &nbsp;&rarr;&nbsp; 4. <a href="behavioral/">Behavioral</a></td>
+<td>1. <a href="machine-learning/deep-learning/">Deep Learning</a> &nbsp;&rarr;&nbsp; 2. <a href="llm-post-training/">Post-Training</a> &nbsp;&rarr;&nbsp; 3. <a href="dsa/">DSA</a> &nbsp;&rarr;&nbsp; 4. <a href="behavioral/">Behavioral</a></td>
 </tr>
 <tr>
 <td><b>ML Infra / Inference</b></td>
-<td>1. <a href="post-training/inference/">Inference</a> &nbsp;&rarr;&nbsp; 2. <a href="software-engineering/system-design/">System Design</a> &nbsp;&rarr;&nbsp; 3. <a href="post-training/">Post-Training</a> &nbsp;&rarr;&nbsp; 4. <a href="dsa/">DSA</a></td>
+<td>1. <a href="llm-post-training/inference/">Inference</a> &nbsp;&rarr;&nbsp; 2. <a href="software-engineering/system-design/">System Design</a> &nbsp;&rarr;&nbsp; 3. <a href="llm-post-training/">Post-Training</a> &nbsp;&rarr;&nbsp; 4. <a href="dsa/">DSA</a></td>
 </tr>
 <tr>
 <td><b>New grad / intern</b></td>
@@ -62,7 +71,7 @@ architecture, language-specific questions, and web fundamentals.
 Foundations, supervised and unsupervised learning, deep learning, feature
 engineering, model evaluation, ML system design, and the math underneath.
 
-### [post-training/](post-training/) — LLM Post-Training
+### [llm-post-training/](llm-post-training/) — LLM Post-Training
 SFT, reward modeling, RLHF / DPO / GRPO, RL environments, evaluation and
 LLM-as-a-judge, and inference optimization. Includes written notes derived from
 [mostofashakib.com/blog](https://www.mostofashakib.com/blog).
@@ -103,7 +112,7 @@ machine-learning/
 ├── ml-system-design/           end-to-end design rounds
 └── interview-questions/        49-question bank
 
-post-training/
+llm-post-training/
 ├── glossary.md                 policy, trajectory, KL, Fisher information
 ├── fundamentals/           [N] the 5-stage LLM pipeline — start here
 ├── data/                   [N] taxonomies, synthetic data, rubrics
@@ -135,20 +144,51 @@ Notes section for exactly this. The repo gets more valuable the more of your own
 work is in it.
 
 **Follow the cross-links.** Routes reference each other where topics connect —
-KL divergence in `machine-learning/math/` links to `post-training/`, agentic
+KL divergence in `machine-learning/math/` links to `llm-post-training/`, agentic
 evaluation links to RL environments. The connections are where interview
 questions come from.
 
 ---
 
-## Conventions
+## Topics covered
 
-- Paths are kebab-case with no spaces — tab-completable and scriptable.
-- Written notes cite their source at the top.
-- `dsa/practice-problems/` and `dsa/study-plan/` are vendored from
-  [kdn251/interviews](https://github.com/kdn251/interviews) and
-  [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university).
-  Their internal structure is left alone so they stay easy to update.
+**Coding interview / DSA** — arrays, strings, linked lists, stacks, queues,
+hash tables, trees, tries, heaps, graphs, sorting, searching, recursion,
+backtracking, dynamic programming, greedy algorithms, bit manipulation, Big-O
+analysis, LeetCode and Cracking the Coding Interview problems by company.
+
+**System design** — scalability, load balancing, caching, sharding,
+replication, CAP theorem, consistent hashing, message queues, rate limiting,
+CDNs, microservices, API design.
+
+**CS fundamentals** — operating systems, concurrency, computer networks, TCP/IP,
+HTTP, SQL and NoSQL databases, indexing, transactions, OOP and design patterns.
+
+**Machine learning** — linear algebra, probability, statistics, optimization,
+bias-variance, regularization, cross-validation, data leakage, linear and
+logistic regression, decision trees, random forests, gradient boosting, SVM,
+kNN, naive Bayes, k-means, PCA, anomaly detection, feature engineering,
+precision/recall, ROC-AUC, calibration, ML system design.
+
+**Deep learning** — backpropagation, CNNs, RNNs, LSTMs, transformers, attention,
+batch/layer norm, dropout, Adam and other optimizers.
+
+**LLM post-training** — the pretraining → SFT → alignment pipeline, instruction
+tuning, LoRA and QLoRA, quantization, synthetic data and rubrics, reward
+modeling, Bradley-Terry, RLHF, DPO, RLVR, PPO, TRPO, GRPO, RL environment and
+reward design, reward hacking, benchmarks, LLM-as-a-judge, agentic evaluation,
+KV cache, speculative decoding, inference optimization.
+
+**Behavioral** — STAR method, story bank, phone screen prep, reverse-interview
+questions.
+
+---
+
+## Contributing
+
+Corrections, better explanations, and new question banks are welcome — open an
+issue or a PR. If a folder's checklist is missing something an interviewer
+actually asked you, that's the highest-value contribution there is.
 
 ## License
 
