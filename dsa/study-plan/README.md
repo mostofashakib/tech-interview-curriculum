@@ -12,39 +12,6 @@
 >
 > *Best of luck to you!*
 
-<details>
-<summary>Translations:</summary>
-
-- [中文版本](translations/README-cn.md)
-- [Tiếng Việt - Vietnamese](translations/README-vi.md)
-- [Español](translations/README-es.md)
-- [Português Brasileiro](translations/README-ptbr.md)
-
-</details>
-
-<details>
-<summary>Translations in progress:</summary>
-
-- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
-- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
-- [Bahasa Indonesia](https://github.com/jwasham/coding-interview-university/issues/101)
-- [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
-- [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
-- [French](https://github.com/jwasham/coding-interview-university/issues/89)
-- [Russian](https://github.com/jwasham/coding-interview-university/issues/87)
-- [Ukrainian](https://github.com/jwasham/coding-interview-university/issues/106)
-- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
-- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
-- [Polish](https://github.com/jwasham/coding-interview-university/issues/122)
-- [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
-- [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
-- [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
-- [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
-- [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
-- [Japanese (日本語)](https://github.com/jwasham/coding-interview-university/issues/257)
-
-</details>
-
 ## What is it?
 
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
@@ -202,30 +169,19 @@ It's a long plan. It may take you months. If you are familiar with a lot of this
 
 Everything below is an outline, and you should tackle the items in order from top to bottom.
 
-I'm using Github's special markdown flavor, including tasks lists to check progress.
+This uses task lists to check progress.
 
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
+**Check items off as you go, just put an x in the brackets: [x]**
 
-
-    Fork a branch and follow the commands below
+    Work on a branch so your progress is easy to track
 
 `git checkout -b progress`
 
-`git remote add jwasham https://github.com/jwasham/coding-interview-university`
-
-`git fetch --all`
-
-    Mark all boxes with X after you completed your changes
+    Mark all boxes with X after you complete each section
 
 `git add .`
 
 `git commit -m "Marked x"`
-
-`git rebase jwasham/master`
-
-`git push --force`
-
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 </details>
 
@@ -685,7 +641,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - binary search using recursion
 
 - ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+    - [ ] [Bits cheat sheet](extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Good intro:
@@ -1301,7 +1257,7 @@ Graphs can be used to represent many problems in computer science, so this secti
 - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
     - review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - [cheat sheet](extras/cheat%20sheets/system-design.pdf)
     - flow:
         1. Understand the problem and scope:
             - define the use cases, with interviewer's help

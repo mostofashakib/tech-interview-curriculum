@@ -24,8 +24,7 @@ Your own code, by topic:
 
 ## practice-problems/
 
-Vendored from [kdn251/interviews](https://github.com/kdn251/interviews). Its own
-`README.md` is a solid topic index with complexity tables. Subfolders:
+Its own `README.md` is a solid topic index with complexity tables. Subfolders:
 
 - `company/` — adobe, airbnb, amazon, apple, bloomberg, facebook, google,
   linkedin, microsoft, palantir, snapchat, twitter, uber, yahoo, yelp
