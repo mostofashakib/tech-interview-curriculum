@@ -1,0 +1,62 @@
+# Snapshots GitHub traffic stats to the orphan `traffic-data` branch.
+#
+# GitHub keeps only 14 days of traffic data and offers no lifetime total, so
+# this captures it before it rolls off. Data lands on a separate branch to keep
+# master's history clean.
+#
+# Setup: the traffic API needs push access and the default GITHUB_TOKEN is
+# often rejected on those endpoints. If the run fails with 403, add a
+# TRAFFIC_TOKEN repo secret (classic PAT with `repo` scope, or fine-grained
+# with Administration: read-only) and re-run.
+
+name: Traffic snapshot
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # daily, 03:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: traffic-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check out existing data (or start a new branch)
+        env:
+          TOKEN: ${{ secrets.TRAFFIC_TOKEN || github.token }}
+        run: |
+          REMOTE="https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          if ! git clone --branch traffic-data --single-branch --depth 1 \
+               "$REMOTE" "$RUNNER_TEMP/data" 2>/dev/null; then
+            echo "No traffic-data branch yet, creating one."
+            mkdir -p "$RUNNER_TEMP/data"
+            git -C "$RUNNER_TEMP/data" init -q -b traffic-data
+            git -C "$RUNNER_TEMP/data" remote add origin "$REMOTE"
+          fi
+
+      - name: Snapshot traffic
+        env:
+          GH_TOKEN: ${{ secrets.TRAFFIC_TOKEN || github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: python3 .github/scripts/traffic_snapshot.py "$RUNNER_TEMP/data"
+
+      - name: Commit and push
+        run: |
+          cd "$RUNNER_TEMP/data"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No change in traffic data."
+            exit 0
+          fi
+          git commit -q -m "Traffic snapshot $(date -u +%Y-%m-%d)"
+          git push -q origin traffic-data
