@@ -15,8 +15,8 @@ Generating without a taxonomy gets you 50k variations of the same easy prompt.
 
 Prompts should be **specific and constraint-loaded**, not generic. Compare:
 
-- ❌ "Write a coding question."
-- ✅ "Generate a Python debugging scenario involving a circular import between
+- **Weak:** "Write a coding question."
+- **Strong:** "Generate a Python debugging scenario involving a circular import between
   three modules, where the fix requires restructuring rather than a local patch."
 
 The second produces a usable training example; the first produces noise.

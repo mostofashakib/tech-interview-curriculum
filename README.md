@@ -1,46 +1,50 @@
-# Core Interview Preparation
+# Tech Interview Curriculum
 
-A one-stop study repo for technical interviews. **Pick your career path below,
-follow the route it gives you, and ignore everything else.**
+A one-stop study repo for technical interviews, spanning software engineering,
+machine learning, and LLM post-training. **Pick your career path below, follow
+the route it gives you, and ignore everything else.**
 
 ---
 
-## 🎯 Start here — pick your path
+## Start here — pick your path
 
 <table>
 <tr><th>If you're targeting…</th><th>Study, in this order</th></tr>
 <tr>
 <td><b>Software Engineer</b><br><sub>product, backend, full-stack</sub></td>
-<td>1. <a href="dsa/">DSA</a> &nbsp;→&nbsp; 2. <a href="software-engineering/">Software Engineering</a> &nbsp;→&nbsp; 3. <a href="behavioral/">Behavioral</a></td>
+<td>1. <a href="dsa/">DSA</a> &nbsp;&rarr;&nbsp; 2. <a href="software-engineering/">Software Engineering</a> &nbsp;&rarr;&nbsp; 3. <a href="behavioral/">Behavioral</a></td>
 </tr>
 <tr>
 <td><b>Senior / Staff Engineer</b></td>
-<td>1. <a href="software-engineering/system-design/">System Design</a> &nbsp;→&nbsp; 2. <a href="behavioral/">Behavioral</a> &nbsp;→&nbsp; 3. <a href="dsa/">DSA</a> (refresh)</td>
+<td>1. <a href="software-engineering/system-design/">System Design</a> &nbsp;&rarr;&nbsp; 2. <a href="behavioral/">Behavioral</a> &nbsp;&rarr;&nbsp; 3. <a href="dsa/">DSA</a> (refresh)</td>
 </tr>
 <tr>
 <td><b>ML Engineer / Data Scientist</b></td>
-<td>1. <a href="machine-learning/">Machine Learning</a> &nbsp;→&nbsp; 2. <a href="machine-learning/ml-system-design/">ML System Design</a> &nbsp;→&nbsp; 3. <a href="dsa/">DSA</a> &nbsp;→&nbsp; 4. <a href="behavioral/">Behavioral</a></td>
+<td>1. <a href="machine-learning/">Machine Learning</a> &nbsp;&rarr;&nbsp; 2. <a href="machine-learning/ml-system-design/">ML System Design</a> &nbsp;&rarr;&nbsp; 3. <a href="dsa/">DSA</a> &nbsp;&rarr;&nbsp; 4. <a href="behavioral/">Behavioral</a></td>
 </tr>
 <tr>
 <td><b>AI Lab / Research Engineer</b><br><sub>post-training, alignment, RL</sub></td>
-<td>1. <a href="machine-learning/deep-learning/">Deep Learning</a> &nbsp;→&nbsp; 2. <a href="post-training/">Post-Training</a> &nbsp;→&nbsp; 3. <a href="dsa/">DSA</a> &nbsp;→&nbsp; 4. <a href="behavioral/">Behavioral</a></td>
+<td>1. <a href="machine-learning/deep-learning/">Deep Learning</a> &nbsp;&rarr;&nbsp; 2. <a href="post-training/">Post-Training</a> &nbsp;&rarr;&nbsp; 3. <a href="dsa/">DSA</a> &nbsp;&rarr;&nbsp; 4. <a href="behavioral/">Behavioral</a></td>
 </tr>
 <tr>
 <td><b>ML Infra / Inference</b></td>
-<td>1. <a href="post-training/inference/">Inference</a> &nbsp;→&nbsp; 2. <a href="software-engineering/system-design/">System Design</a> &nbsp;→&nbsp; 3. <a href="post-training/">Post-Training</a> &nbsp;→&nbsp; 4. <a href="dsa/">DSA</a></td>
+<td>1. <a href="post-training/inference/">Inference</a> &nbsp;&rarr;&nbsp; 2. <a href="software-engineering/system-design/">System Design</a> &nbsp;&rarr;&nbsp; 3. <a href="post-training/">Post-Training</a> &nbsp;&rarr;&nbsp; 4. <a href="dsa/">DSA</a></td>
 </tr>
 <tr>
 <td><b>New grad / intern</b></td>
-<td>1. <a href="dsa/">DSA</a> (most of your time) &nbsp;→&nbsp; 2. <a href="software-engineering/cs-fundamentals/">CS Fundamentals</a> &nbsp;→&nbsp; 3. <a href="behavioral/">Behavioral</a></td>
+<td>1. <a href="dsa/">DSA</a> (most of your time) &nbsp;&rarr;&nbsp; 2. <a href="software-engineering/cs-fundamentals/">CS Fundamentals</a> &nbsp;&rarr;&nbsp; 3. <a href="behavioral/">Behavioral</a></td>
 </tr>
 </table>
 
 Every route has its own README with a suggested order and a question bank. Open
 the first link in your row and start there.
 
+Before any of it, there's [resume-tips.pdf](resume-tips.pdf) — you have to get
+the interview before you can prepare for it.
+
 ---
 
-## 📚 The five routes
+## The five routes
 
 ### [dsa/](dsa/) — Data Structures & Algorithms
 The coding round. Hand-written implementations, ~1000 solved problems organized
@@ -63,13 +67,13 @@ SFT, reward modeling, RLHF / DPO / GRPO, RL environments, evaluation and
 LLM-as-a-judge, and inference optimization. Includes written notes derived from
 [mostofashakib.com/blog](https://www.mostofashakib.com/blog).
 
-Plus [resources/](resources/) — resume tips and general books.
-
 ---
 
-## 🗺️ Repository map
+## Repository map
 
 ```
+resume-tips.pdf                 read this before anything else
+
 dsa/
 ├── implementations/            arrays, strings, graphs, trie, pattern search
 ├── practice-problems/          ~1000 Java solutions by company and source
@@ -101,26 +105,22 @@ machine-learning/
 
 post-training/
 ├── glossary.md                 policy, trajectory, KL, Fisher information
-├── fundamentals/               ★ the 5-stage LLM pipeline — start here
-├── data/                       ★ taxonomies, synthetic data, rubrics
-├── sft/                        ★ instruction tuning, LoRA, QLoRA
+├── fundamentals/           [N] the 5-stage LLM pipeline — start here
+├── data/                   [N] taxonomies, synthetic data, rubrics
+├── sft/                    [N] instruction tuning, LoRA, QLoRA
 ├── reward-modeling/            preference data, Bradley-Terry, failure modes
-├── preference-optimization/    ★ DPO, RLHF, RLVR · TRPO, PPO, GRPO
+├── preference-optimization/[N] DPO, RLHF, RLVR · TRPO, PPO, GRPO
 ├── rl-environments/            environment & reward design, anti-gaming
-├── evals/                      ★ benchmarks, LLM-as-judge, agentic evaluation
+├── evals/                  [N] benchmarks, LLM-as-judge, agentic evaluation
 ├── inference/                  KV cache, quantization, speculative decoding
 └── interview-questions/        derivations, debugging, design
 
-resources/
-├── resume/
-└── books/
-
-★ = contains written notes, not just checklists
+[N] = contains written notes, not just checklists
 ```
 
 ---
 
-## 🧭 How this repo is meant to be used
+## How this repo is meant to be used
 
 **Every folder has a README** that tells you what's in it, what order to study
 it in, and what you'll be asked. You should never have to guess what a directory
